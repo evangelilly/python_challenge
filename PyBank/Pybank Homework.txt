@@ -1,0 +1,36 @@
+#import dependences
+import os
+import csv
+
+#Set the path for the csv file
+Pybank = os.path.join("Resources","budget_data.csv")
+
+#define bank variables
+months = []
+profit_loss_changes = []
+date = []
+
+#define additional variables
+
+count_months = 0
+net_profit_loss = 0
+previous_month_profit_loss = 0
+current_month_profit_loss = 0
+profit_loss_change = 0
+
+
+
+
+example: for x in range (2, 7):
+print(x)
+
+#while loop
+loop while a condition is being met
+run ="y"
+while run == "y":
+print("Hi!")
+run = input("To run again. Enter 'y': ")
+
+
+loopdeeloop.py
+
