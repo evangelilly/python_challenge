@@ -89,3 +89,14 @@ print(f'Total: ${net_pnl}.')
 print(f'Average Change: {pnl_avg}.')
 print(f'Greatest Increase in Profits: {highest_month}  (${highest_amount})')
 print(f'Greatest Dcrease in Profits: {lowest_month}  (${lowest_amount})')
+
+#file = os.path.join("Output", "budget_data.txt")
+results_file = 'output.txt'
+with open(results_file, "w") as output:
+    output.write("Financial Analysis\n")
+    output.write("----------------------------\n")
+    output.write("Total Months:  {count_months}\n")
+    output.write("Total:  ${net_profit_loss}\n")
+    output.write("Average Change:  ${average_profit_loss}\n")
+    output.write("Greatest Increase in Profits:  {best_month} (${highest_change})\n")
+    output.write("Greatest Decrease in Losses:  {worst_month} (${lowest_change})\n")
